@@ -1,4 +1,5 @@
-
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 <!--
 
 Challenge 4: You have been tasked to create a
@@ -33,7 +34,9 @@ regular expressions)
 - Name should only contain letters and numbers
 
 -->
-
+<head>
+    <title>Form</title>
+</head>
 <form action="#" method="post">
     <div>
         <label>Name(At least 6 alphanumberic characters)</label>
@@ -79,7 +82,7 @@ regular expressions)
     </div>
 
     <div>
-        <input id="public-bio-checkbox" type="checkbox" name="public" checked="true">
+        <input id="public-bio-checkbox" type="checkbox" name="public" checked>
         <label for="public-bio-checkbox">Public Bio</label>
     </div>
     <div>
@@ -87,11 +90,12 @@ regular expressions)
     </div>
     <div>
         <label>Upload Image</label>
-        <input name="image" type="file" accept="images">
+        <input name="image" type="file" accept="image/*">
     </div>
     <div>
         <label>Self Destruct</label>
-        <input name="self-destruct" type="checkbox" disabled="true">
+        <input name="self-destruct" type="checkbox" disabled>
     </div>
     <button type="submit">Submit</button>
 </form>
+</html>
