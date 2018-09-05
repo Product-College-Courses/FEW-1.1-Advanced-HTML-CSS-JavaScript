@@ -10,12 +10,32 @@ CSS is the second piece in the separation of concerns.
 1. Define Separation of Concerns (related to HTML and CSS)
 1. Define: DOM
 1. Identify rule, selector, properties, and values
+1. Use Selectors to target elements
 1. Write CSS rules with correct syntax
 1. Create styled web pages
+1. Use base font size and em
+1. Apply strategies for 
 
 ## Initial Exercise
 
 - Styling web pages
+  - Style text using font-size, color
+  - Use em and base font size
+  
+## Selectors 
+
+Use selectors to define where rules are applied. 
+
+- [CSS Diner](https://flukeout.github.io)
+
+## Designing with Type 
+
+Using siimple rules you can make your work look worlds better. 
+Use font styles to create a hierarachy of type. 
+
+- Designing with Type: Hierarchy
+  - [Type Hierarchy tips](https://99designs.com/blog/tips/typographic-hierarchy-web-design/)
+  - [Type Hierarchy Examples](https://www.canva.com/learn/typeface-fonts/)
 
 ## Overview/TT I 
 
@@ -52,11 +72,13 @@ CSS is the second piece in the separation of concerns.
 
 ## After Class
 
-- Complete the tutorial...
-- Complete reading
-- Complete challenges
+- Complete the [tutorial](https://www.makeschool.com/academy/track/we-sell-shoes) 
+  - Code review your tutorial project with another student
+- Complete [CSS Diner](https://flukeout.github.io)
 
 ## Additional Resources
 
-1. https://flukeout.github.io
+1. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 1. https://www.w3schools.com/cssref/default.asp
+1. https://www.canva.com/learn/typeface-fonts/
+1. https://99designs.com/blog/tips/typographic-hierarchy-web-design/
