@@ -16,14 +16,21 @@
   // properties with a loop...
   
   class User {
-    constructor(first, last, el) {
+    constructor(first, last, rate, score) {
       this.first = first;
       this.last = last;
+      this.rate = rate
+      this.score = score
     }
     
     describe() {
       return `${this.first} ${this.last}`;
     }
+    toHTMLString(){
+      return '<div>
+        <h1>${this.prefix} ${this.first} ${this.last}</h1> 
+        <p>${this.rate} ${this.score}</p>
+  </div>`; 
   }
   
   // Challenge 7) Add a method to the class above
